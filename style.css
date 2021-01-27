@@ -1,0 +1,189 @@
+.menu {
+    text-align: center;
+    width:100%;
+    position: fixed;
+    top: 0px;
+    background-color: white;
+    opacity: 0.5;
+}
+.menu a {
+    text-decoration: none;
+    color:black;
+    padding: 5px 60px;
+    display: inline-block;
+    background-color: aliceblue;
+    width: 5%;
+}
+.menu a:hover{
+    background-color: aquamarine;
+}
+.header {
+    background-image: url(img/polygons.png);
+    color:white;
+    text-align: center;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 200px 0px;
+    margin-top: 30px;
+    background-attachment: fixed;
+}
+.header a {
+    border-radius: 10px;
+    padding: 15px;
+    background-color: white;
+    text-decoration: none;
+    color: black;
+}
+.header a:hover {
+    background-color: aquamarine;
+}
+.about img {
+    width: 30%;
+    float: left;
+    margin-top: -60px;
+}
+.about{
+    text-align: justify;
+    min-width: 300px;
+    font-size: 18px;
+}
+.about h1 {
+    text-align: center;
+}
+.worker {
+    display: inline-block;
+    border-color: grey;
+    border-width: 3px;
+    border-style: solid;
+    width: 20%;
+    padding: 20px;
+    box-shadow: 10px 2px 5px grey;
+    text-align: left;
+    margin: 5px;
+    min-width: 300px;
+}
+.worker img {
+    width:100%;
+}
+.team {
+    text-align: center;
+}
+.worker h5 {
+    opacity: 0.5;
+}
+.worker h4 {
+    font-weight: 200;
+    height: 50px;
+}
+.worker a {
+    border-radius: 7px;
+    color: white;
+    text-decoration: none;
+    width: 100%;
+    background-color: #055b73;
+    display: inline-block;
+    text-align: center;
+    padding: 20px 0px; 
+}
+.tarif {
+    text-align: center;
+    background-color: #616161;
+    padding: 50px 0px;
+    
+}
+.pocket li {
+    list-style: none;
+    border-bottom-color: #dddddd;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    padding: 5px 0px;
+}
+.b {
+    background-color: black;
+    color: white;
+    font-size: 30px;
+}
+.pocket {
+    width: 30%;
+    display: inline-block;
+    background-color: white;
+    padding: 0px;
+    margin: 0px 5px;
+    min-width: 300px;
+    margin-bottom: 15px;
+}
+.pocket .d {
+    background-color: #055b73;
+    font-size: 35px;
+    padding: 20px 0px;
+}
+.pocket a {
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    padding: 7px;
+}
+.pocket li:last-child {
+    background-color: #f1f1f1;
+    padding: 15px 0px;
+}
+.pocket span {
+    font-weight: bold;
+}
+.a {
+    opacity: 0.1;
+}
+.x {
+    font-size: 30px;
+}
+.pocket a:hover {
+    color: black;
+    background-color: white;
+}
+.contacts {
+    background-color: #f1f1f1;
+    text-align: center;
+    padding: 50px 0px;
+
+}
+.geo {
+    background-image: url(img/address.png);
+}
+.phone {
+    background-image: url(img/phone.png);
+}
+.email {
+    background-image: url(img/mail.png);
+}
+.info {
+    background-repeat: no-repeat;
+    background-size: 18px;
+    text-align: left;
+    padding-left: 25px;
+    margin-left: 25px;
+}
+input {
+    width: 90%;
+    padding: 5px;
+}
+button {
+    background-color: black;
+    color:white;
+    border-radius: 8px;
+    padding: 5px;
+    cursor:pointer;
+}
+button:hover {
+    background-color: white;
+    color: black;
+}
+.footer {
+    background-color: black;
+    width: 100%;
+}
+.footer a {
+    color: white;
+    text-decoration: none;
+}
